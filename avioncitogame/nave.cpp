@@ -57,15 +57,15 @@ void pintarLimite()
 
 void disparo()
 {
-	sndPlaySound("snd_disparo.wav", SND_ASYNC);
+	sndPlaySoundA("snd_disparo.wav", SND_ASYNC);
 }
 void lose()
 {
-	sndPlaySound("snd_lose.wav", SND_ASYNC);
+	sndPlaySoundA("snd_lose.wav", SND_ASYNC);
 }
 void explosion()
 {
-	sndPlaySound("explosion.wav", SND_ASYNC);
+	sndPlaySoundA("explosion.wav", SND_ASYNC);
 	
 }
 
